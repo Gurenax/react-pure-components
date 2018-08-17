@@ -3,7 +3,7 @@ import './App.css'
 
 import Standard from './components/Standard'
 import Pure from './components/Pure'
-import Stateless from './components/Stateless'
+import FunctionalStateless from './components/FunctionalStateless'
 
 class App extends Component {
   state = {
@@ -35,7 +35,7 @@ class App extends Component {
       <div className="App">
         <Standard message={message} />
         <hr />
-        <Stateless message={message} />
+        <FunctionalStateless message={message} />
         <hr />
         <Pure message={message} />
         <hr />
