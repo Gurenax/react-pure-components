@@ -7,7 +7,7 @@ class Standard extends Component {
     return (
       <div className="StandardComponent">
         <h1>This is a Standard Component</h1>
-        <p>Will render on load and every time the state is set.</p>
+        <p>Will render on load and every time the state is set regardless if it's mutated or not.</p>
         <div>
           <label>The message is: { message }</label>
         </div>

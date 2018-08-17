@@ -4,7 +4,7 @@
 
 
 ## Standard Component
-- Will render on load and every time the state is set.
+- Will render on load and every time the state is set regardless if it's mutated or not.
 
 ## Functional Stateless Component
 - Will render similar to a standard Component.
